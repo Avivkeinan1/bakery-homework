@@ -1,0 +1,73 @@
+body{
+    margin:0;
+    color: white;
+   
+  min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bread-g3cda8f4ae_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+   
+
+.background-image .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+    background-color: rgba(255, 255, 255, 0.46);
+    height: 90px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .header header #image {
+    width: 130px;
+    height: 90px;
+  }
+  .background-image .header header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    justify-content: space-evenly;
+  }
+  .background-image .header header a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+
+  .content{
+   display: flex;
+   justify-content: center;
+  }
+.content h2{
+    font-size: 40px;
+    text-align: center;
+    
+}
+.content h2:hover{
+    box-shadow: 10px 10px 10px  grey;
+}
+.paragraph{
+    background-color: rgba(0, 0, 0, 0.451);
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border: 60px;
+    margin-left: 10%;
+    margin-right: 10%;
+    font-size: 20px;
+}
+.social-media{
+    text-align: center;
+
+}

@@ -1,0 +1,107 @@
+body{
+    margin:0;
+    color: white;
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/bread-g3cda8f4ae_1920.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+}
+
+   
+
+.background-image .header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: space-around;
+  
+    background-color: rgba(255, 255, 255, 0.46);
+    height: 90px;
+    margin-right: 80px;
+    margin-left: 80px;
+    margin-bottom: 150px;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+  
+    padding: 10px;
+    font-size: 20px;
+  }
+  
+  .header header #image {
+    width: 130px;
+    height: 90px;
+  }
+  .background-image .header header a {
+    text-decoration: none;
+    font-size: 20px;
+    color: whitesmoke;
+    justify-content: space-evenly;
+  }
+  .background-image .header header a:hover {
+    text-decoration: underline;
+    color: black;
+  }
+  
+  #h1{
+    margin-left: 90px;
+    text-decoration: underline white;
+  }
+  form select#places{
+    
+    font-size: 15px;
+    background-color:rgba(165, 42, 42, 0.218);
+  }
+  form label{
+    font-size: 25px;
+  }
+  form .animation a{
+    margin-left: 20px;
+    font-size: 15px;
+    text-decoration: none;
+    color: black;
+    animation-name: telephone;
+    animation-direction: alternate;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+  margin-bottom: 20px;
+}
+  
+   @keyframes telephone{
+    0%{
+        font-size: 15px;
+        color: black;
+    }
+    25%{
+        font-size: 16px;
+        color: aqua;
+    }
+    50%{
+        font-size: 17px;
+        color: chartreuse;
+    }
+    75%{
+        font-size: 19px;
+        color: darkblue;
+    }
+    100%{
+        font-size: 20px;
+        color: crimson;
+    }
+   }
+ 
+   form .animation a:hover{
+    text-decoration: underline;
+    color: white;
+   }
+   .container{
+    margin-left: 30px;
+   }
+   .form{
+    margin-left:20px ;
+   }
+   
